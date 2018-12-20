@@ -5,7 +5,7 @@ const port = process.env.PORT || 80;
 fs = require('fs');
 
 let cache = [];
-cache[0] = fs.readFileSync(src/getTdnet/Tdnet-rss/Tdnet-rss-20181220.xml);
+cache[0] = fs.readFileSync("src/getTdnet/Tdnet-rss/Tdnet-rss-20181220.xml");
 
 
 app.get('/', (req, res) => {
